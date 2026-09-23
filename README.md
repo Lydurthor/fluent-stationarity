@@ -51,6 +51,10 @@ The signal is split into smaller time windows and their mean values are compared
 
 The averaging region is chosen from the behaviour of the CFD signal itself, not from how closely the result matches expected or experimental values.
 
+![Cl signal with the chosen cutoff marked](example.png)
+
+The plot above is `cl-rfile.out`. The vertical line is the cutoff the tool picked. Everything to the left of it is still climbing towards the steady oscillation and is left out of the averaging.
+
 ## Output
 
 The program reports:

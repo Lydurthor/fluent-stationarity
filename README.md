@@ -2,7 +2,7 @@
 
 Small Python tool for analysing transient `Cl` and `Cd` report-file data from ANSYS Fluent.
 
-The problem it fixes is that when you are simulating geometry that does not have a stable solution, fx. due to votrex shedding the solution oscillates, this tool makes it so the resaults only come from the part of the solution where the oscillation is stable. 
+The problem it fixes is that when you are simulating geometry that does not have a stable solution, fx. due to vortex shedding the solution oscillates, this tool makes it so the results only come from the part of the solution where the oscillation is stable. 
 
 The goal is to avoid averaging over the initial transient part of a CFD run. The script finds a stationary region and calculates the mean, standard deviation and oscillation characteristics of the signal.
 
@@ -95,4 +95,4 @@ The code was checked against a separate reference analysis of the same CFD data.
 
 The purpose of the tool is to make transient CFD averaging more systematic and reproducible.
 
-Attached are two files from a proir run that have been tested.
+Attached are two files from a prior run that have been tested.
